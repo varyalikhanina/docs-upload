@@ -46,7 +46,8 @@ function changeFilename(
     const filesizeInKilobytes = input.files[0].size / 1024;
     const filesizeInMegabytes = filesizeInKilobytes / 1000;
     setTimeout(() => {
-      icon.style.backgroundImage = "url('src/images/wait.svg')";
+      icon.classList.remove("documents__item-upload_upload");
+      icon.classList.add("documents__item-upload_wait");
       result.textContent = "Идет проверка";
       result.style.color = "#9c9c9c";
       preloader.style.display = "none";
@@ -61,7 +62,8 @@ function changeFilename(
       function decline() {
         result.textContent = "Отклонено";
         result.style.color = "#c43524";
-        icon.style.backgroundImage = "url('src/images/upload.svg')";
+        icon.classList.add("documents__item-upload_upload");
+        icon.classList.remove("documents__item-upload_wait");
         filename.textContent = "Размер файла не более 5Мб";
         link.textContent = `Загрузить скан страницы с ${uniqueTextValue}`;
         input.removeAttribute("disabled");
@@ -73,7 +75,8 @@ function changeFilename(
         link.textContent = linkValue;
         result.textContent = "Проверено";
         result.style.color = "#7fa050";
-        icon.style.backgroundImage = "url('src/images/ok.svg')";
+        icon.classList.add("documents__item-upload_ok");
+        icon.classList.remove("documents__item-upload_wait");
         link.style.textDecoration = "none";
       }
       if (random.text === "Отклонено") {

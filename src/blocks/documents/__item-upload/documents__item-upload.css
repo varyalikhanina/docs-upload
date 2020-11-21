@@ -1,3 +1,7 @@
+@import url("_upload/documents__item-upload_upload.css");
+@import url("_ok/documents__item-upload_ok.css");
+@import url("_wait/documents__item-upload_wait.css");
+
 .documents__item-upload {
   background-color: #fff;
   width: 53px;
@@ -9,7 +13,6 @@
   align-items: center;
   margin-right: 36px;
   position: relative;
-  background-image: url("../../../images/upload.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
