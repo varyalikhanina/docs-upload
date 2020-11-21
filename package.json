@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/varyalikhanina/docs-upload.git"
   },
-  "homepage": "https://github.com/varyalikhanina/docs-upload#readme",
+  "homepage": "https://varyalikhanina.github.io/docs-upload",
   "author": "Varya Likhanina",
   "license": "ISC",
   "devDependencies": {
