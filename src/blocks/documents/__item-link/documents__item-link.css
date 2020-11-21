@@ -18,9 +18,14 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .documents__item-link {
+    max-width: 240px;
+  }
+}
+
 @media screen and (max-width: 350px) {
   .documents__item-link {
     font-size: 12px;
-    max-width: 240px;
   }
 }
