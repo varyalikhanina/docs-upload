@@ -1,5 +1,6 @@
 {
   "name": "docs",
+  "homepage": "https://github.com/varyalikhanina.github.io/docs-upload",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/varyalikhanina/docs-upload.git"
   },
-  "homepage": "https://varyalikhanina.github.io/docs-upload",
   "author": "Varya Likhanina",
   "license": "ISC",
   "devDependencies": {
