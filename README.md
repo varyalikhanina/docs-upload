@@ -8,4 +8,4 @@
 
 HTML, CSS, JS, Webpack
 
-[Посмотреть](https://varyalikhanina.github.io/docs-upload)
+[Посмотреть](https://varyalikhanina.github.io/docs-upload/)
