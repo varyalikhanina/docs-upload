@@ -1,0 +1,13 @@
+.documents__item-result {
+  font-size: 14px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .documents__item-result {
+    font-size: 12px;
+  }
+}

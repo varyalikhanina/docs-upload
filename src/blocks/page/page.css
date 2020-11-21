@@ -1,0 +1,15 @@
+@import url("../documents/documents.css");
+@import url("../preloader/preloader.css");
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  background-color: #f7f7f7;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "PT Sans", sans-serif;
+}

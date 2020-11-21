@@ -1,0 +1,16 @@
+.preloader__animation {
+  width: 32px;
+  height: 32px;
+  display: block;
+  border: 2px solid #f9f9f9;
+  border-bottom-color: #cdcdcd;
+  border-radius: 50%;
+  margin: 0 auto;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

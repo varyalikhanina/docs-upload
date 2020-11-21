@@ -1,0 +1,14 @@
+@import url("__title/documents__title.css");
+@import url("__subtitle/documents__subtitle.css");
+@import url("__item-upload/documents__item-upload.css");
+@import url("__item-filename/documents__item-filename.css");
+@import url("__item/documents__item.css");
+@import url("__item-input/documents__item-input.css");
+@import url("__item-link/documents__item-link.css");
+@import url("__item-wrapper/documents__item-wrapper.css");
+@import url("__item-result/documents__item-result.css");
+
+.documents {
+  max-width: 90%;
+  width: 540px;
+}

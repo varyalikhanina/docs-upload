@@ -1,0 +1,13 @@
+@import url("__animation/preloader__animation.css");
+
+.preloader {
+  margin: 0;
+  height: 53px;
+  width: 53px;
+  background-color: #fff;
+  display: none;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

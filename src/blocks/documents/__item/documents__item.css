@@ -1,0 +1,6 @@
+.documents__item {
+  display: flex;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  position: relative;
+}

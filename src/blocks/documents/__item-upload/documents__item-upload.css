@@ -1,0 +1,21 @@
+.documents__item-upload {
+  background-color: #fff;
+  width: 53px;
+  height: 53px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 36px;
+  position: relative;
+  background-image: url("../../../images/upload.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .documents__item-upload {
+    margin-right: 10px;
+  }
+}

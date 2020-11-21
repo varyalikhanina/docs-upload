@@ -1,0 +1,7 @@
+.documents__item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: calc(100% - 53px - 36px);
+  overflow: hidden;
+}

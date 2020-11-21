@@ -1,0 +1,24 @@
+.documents__item-link {
+  text-decoration: underline;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  margin: 0;
+  left: calc(53px + 36px);
+  width: max-content;
+}
+
+@media screen and (max-width: 767px) {
+  .documents__item-link {
+    font-size: 14px;
+    left: calc(53px + 10px);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .documents__item-link {
+    font-size: 12px;
+  }
+}

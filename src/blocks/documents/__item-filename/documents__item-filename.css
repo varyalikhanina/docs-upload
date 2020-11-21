@@ -1,0 +1,11 @@
+.documents__item-filename {
+  color: #aeaeae;
+  margin: 0;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 350px) {
+  .documents__item-filename {
+    font-size: 12px;
+  }
+}
