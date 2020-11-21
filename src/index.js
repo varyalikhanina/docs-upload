@@ -46,7 +46,7 @@ function changeFilename(
     const filesizeInKilobytes = input.files[0].size / 1024;
     const filesizeInMegabytes = filesizeInKilobytes / 1000;
     setTimeout(() => {
-      icon.style.backgroundImage = 'url("../../../images/wait.svg")';
+      icon.style.backgroundImage = "url('src/images/wait.svg')";
       result.textContent = "Идет проверка";
       result.style.color = "#9c9c9c";
       preloader.style.display = "none";
@@ -56,13 +56,12 @@ function changeFilename(
       const filepath = event.target.value.replace(/C:\\fakepath\\/i, "");
       let filesizeFormatted = Math.floor(filesizeInKilobytes);
       filename.textContent = `${filepath} (${filesizeFormatted}Кб)`;
-      icon.style.backgroundImage = "url('../../../images/ok.svg')";
       const random =
         resultValues[Math.floor(Math.random() * resultValues.length)];
       function decline() {
         result.textContent = "Отклонено";
         result.style.color = "#c43524";
-        icon.style.backgroundImage = "url('../../../images/upload.svg')";
+        icon.style.backgroundImage = "url('src/images/upload.svg')";
         filename.textContent = "Размер файла не более 5Мб";
         link.textContent = `Загрузить скан страницы с ${uniqueTextValue}`;
         input.removeAttribute("disabled");
@@ -74,6 +73,7 @@ function changeFilename(
         link.textContent = linkValue;
         result.textContent = "Проверено";
         result.style.color = "#7fa050";
+        icon.style.backgroundImage = "url('src/images/ok.svg')";
         link.style.textDecoration = "none";
       }
       if (random.text === "Отклонено") {
